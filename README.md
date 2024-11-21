@@ -2,6 +2,10 @@
 
 A modern, responsive landing page showcasing Wadie's professional services and upcoming portfolio platform.
 
+## screenshot_ui
+
+![screenshot_ui](./assets/screenshot_ui.png)
+
 ## Features
 
 - Responsive design that works on all devices
