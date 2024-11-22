@@ -57,3 +57,43 @@ A modern, responsive landing page showcasing Wadie's professional services and u
 ## Mobile Responsiveness
 
 The landing page is fully responsive with a persistent navigation menu on all devices.
+
+## Visitor Tracking System
+
+This project includes a built-in visitor tracking system that allows you to monitor site traffic without requiring a backend server.
+
+## Screenshot_ui
+
+![screenshot_ui](./assets/screenshot_ui_tracking.png)
+
+### Features
+
+- Real-time visitor counting
+- Daily visitor statistics
+- Detailed visitor information tracking including:
+  - IP address
+  - Browser details
+  - Language preferences
+  - Screen resolution
+  - Time zone
+  - Referrer information
+  - Visit timestamp
+  - Repeat visitor detection
+
+### How to Use
+
+1. Access the tracking page through `visitor_tracker.html`
+2. The page will display:
+   - Total visitor count
+   - Daily breakdown of visitors
+   - Automatic download of `visitor_data.json` containing detailed visitor information
+
+### Data Storage
+
+- Visitor data is stored locally using localStorage
+- A JSON file (`visitor_data.json`) is automatically downloaded with each new visit
+- No backend server required - all data can be collected manually from the JSON files
+
+### Privacy Note
+
+This tracker collects basic visitor information for analytics purposes. Consider adding a privacy notice to your site if you implement this tracking system.
